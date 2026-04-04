@@ -80,7 +80,7 @@ To become a **skilled software engineer** and **machine learning expert**, build
     <figcaption>Solving complex problems, one line of code at a time.</figcaption>
   </figure>
   <figure>
-    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop" alt="Campus Workspace">
+    <img src="/assets/images/minahil_intro_1.png" alt="Campus Workspace">
     <figcaption>Collaborating with peers on campus projects.</figcaption>
   </figure>
 </div>
