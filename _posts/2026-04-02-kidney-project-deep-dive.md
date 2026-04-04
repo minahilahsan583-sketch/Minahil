@@ -4,11 +4,14 @@ date: 2026-04-02
 categories: [machine-learning, projects]
 tags: [healthcare, python, kidney-health]
 header:
-  overlay_image: /assets/images/kidney_project_1.png
+  overlay_image: https://images.unsplash.com/photo-1576091160550-217359f4ecf8?q=80&w=2070&auto=format&fit=crop
   overlay_filter: 0.5
+  teaser: https://images.unsplash.com/photo-1576091160550-217359f4ecf8?q=80&w=2070&auto=format&fit=crop
 ---
 
 How did we build the **Kidney Disease Prediction System** for our exhibition? Here's the technical breakdown!
+
+![Medical Data Analysis](https://images.unsplash.com/photo-1576091160550-217359f4ecf8?q=80&w=2070&auto=format&fit=crop)
 
 ### 1. Data Collection
 We used healthcare datasets containing patients' medical metrics—albumin levels, sugar, pressure, etc.

@@ -4,9 +4,12 @@ date: 2026-04-04
 categories: [tech, guide]
 tags: [python, numpy, pandas, matplotlib, scikit-learn]
 header:
-  overlay_image: https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2070&auto=format&fit=crop
+  overlay_image: https://d1fn6xu754v319.cloudfront.net/169_image_for_blogs_1_1_b842aec910.png
   overlay_filter: 0.5
+  teaser: https://d1fn6xu754v319.cloudfront.net/169_image_for_blogs_1_1_b842aec910.png
 ---
+
+![Python Library Logos](https://d1fn6xu754v319.cloudfront.net/169_image_for_blogs_1_1_b842aec910.png)
 
 Python is the go-to language for engineers today. Its vast library ecosystem makes it incredible for everything from simple scripting to complex simulations.
 

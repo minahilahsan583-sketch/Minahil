@@ -6,9 +6,12 @@ tags: [embedded-systems, ai-hardware, edge-computing]
 header:
   overlay_image: https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop
   overlay_filter: 0.5
+  teaser: https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop
 ---
 
 Computer engineering is an ever-evolving field. As students, we must keep an eye on emerging trends that will shape our careers over the next decade.
+
+![Future of Computing](https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop)
 
 Key trends include:
 - **Edge Computing**: Shifting processing power from the cloud to local devices.
