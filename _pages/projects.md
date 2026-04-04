@@ -24,7 +24,7 @@ Developed as part of a high-level Technical Exhibition, this system leverages ad
 - **Tech Stack**: Python, Scikit-learn, Pandas, Matplotlib, Data Normalization techniques.
 - **My Role**: End-to-end management of **Data Preprocessing**, algorithm selection (Random Forest), and rigorous performance tuning.
 
-![Kidney Prediction Screenshot](/assets/images/kidney_project_1.png)
+![Kidney Prediction Screenshot]({{ '/assets/images/kidney_project_1.png' | relative_url }})
 
 ---
 
@@ -37,7 +37,7 @@ A high-performance database application designed to manage complex historical st
 - **Tech Stack**: MySQL, C++ Integration, Relational Database Schema Design.
 - **Key Features**: Secure multi-role access, Automated transcript generation, and robust integrity constraints.
 
-![Database Project Screenshot](/assets/images/project_2_db.png)
+![Database Project Screenshot]({{ '/assets/images/project_2_db.png' | relative_url }})
 
 ---
 
@@ -50,7 +50,7 @@ An interactive web-based platform that translates personal study metrics and cod
 - **Tech Stack**: HTML5, CSS3 (Modern Flexbox/Grid), JavaScript, Chart.js.
 - **Key Features**: Dynamic progress tracking, task scheduling, and fully responsive UI with Dark Mode.
 
-![Web Dashboard Screenshot](/assets/images/project_3_web.png)
+![Web Dashboard Screenshot]({{ '/assets/images/project_3_web.png' | relative_url }})
 
 ---
 

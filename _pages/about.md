@@ -1,15 +1,15 @@
 ---
 layout: single
-title: "Inspiring Innovation: My Journey in Engineering"
+title: "About Me"
 permalink: /about/
 author_profile: true
 header:
-  overlay_image: /assets/images/minahil_lab_1.png
-  overlay_filter: 0.6
+  overlay_image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop
+  overlay_filter: 0.5
   caption: "Engineering the Future with Logic and Creativity"
 ---
 
-# 👋 About Me
+## 👋 About Me
 
 I am **Minahil Ahsan**, a dedicated **Computer Engineering** student with a profound passion for building intelligent systems and solving complex computational problems. My approach combines rigorous technical expertise with a creative mindset to develop solutions that don't just work, but excel.
 
@@ -17,7 +17,7 @@ I am **Minahil Ahsan**, a dedicated **Computer Engineering** student with a prof
 
 ## 🎓 My Academic Journey
 
-I am currently pursuing a **Bachelor’s in Computer Engineering**, where I am building a solid foundation in software architecture, electronic circuits, and data science. 
+I am currently pursuing a **Bachelor's in Computer Engineering**, where I am building a solid foundation in software architecture, electronic circuits, and data science. 
 
 My academic path is marked by a commitment to practical excellence. During my initial semesters, I had the privilege of working under the mentorship of **Dr. Bilal**, where I participated in high-level technical exhibitions. This exposure allowed me to translate theoretical knowledge into real-world applications, particularly in **predictive modeling and software design**.
 
@@ -25,7 +25,7 @@ My academic path is marked by a commitment to practical excellence. During my in
 
 ## 🎯 My Mission & Goals
 
-My ambition extends beyond personal success; I aim to be a catalyst for technological advancement in my country. 
+My ambition extends beyond personal success; I aim to be a catalyst for technological advancement in my country.
 
 *   **Become an ML Authority**: I aspire to master Machine Learning and Artificial Intelligence to build systems that automate and optimize critical industries.
 *   **Serve My Nation**: I am driven by the goal of using technology to streamline public services, improve healthcare, and contribute to the economic growth of my country through digital innovation.
@@ -52,37 +52,17 @@ I constantly update my skill set to stay at the forefront of the industry.
 ## 🏗️ Major Project Highlight
 
 ### Kidney Disease Prediction System
-One of my most significant projects to date is a **Healthcare-focused Predictive Model**. 
-We developed an advanced system that utilizes patient data to predict the early onset of kidney disease with high precision.
+One of my most significant projects to date is a **Healthcare-focused Predictive Model**. We developed an advanced system that utilizes patient data to predict the early onset of kidney disease with high precision.
 
 *   **Key Achievement**: Achieved over **90% accuracy** through rigorous feature engineering and model tuning.
 *   **Impact**: Demonstrating how AI can be a life-saving tool in preventive medicine.
 
 ---
 
-## 💬 Let’s Connect
+## 💬 Let's Connect
 
 I am always eager to collaborate on innovative projects or discuss the latest trends in technology.
 
 *   **Professional Network**: [LinkedIn](https://linkedin.com/in/minahilahsan)
 *   **Code Repositories**: [GitHub](https://github.com/Minahil)
 *   **Direct Inquiry**: [Email Me](mailto:minahilahsan@gmail.com)
-
----
-
-### 🏛️ Life at the Lab
-
-<div class="gallery">
-  <figure>
-    <img src="/assets/images/minahil_lab_1.png" alt="University Lab">
-    <figcaption>Where ideas turn into implementation.</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/images/minahil_coding_1.png" alt="Coding Session">
-    <figcaption>The craft of writing elegant code.</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/images/minahil_intro_1.png" alt="Team Collaboration">
-    <figcaption>Learning through synergy and shared goals.</figcaption>
-  </figure>
-</div>

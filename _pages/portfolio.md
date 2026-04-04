@@ -17,7 +17,7 @@ A visually-driven display of my technical work, code samples, and campus activit
 ### UI/UX Design Concepts
 I explore modern UI/UX principles to ensure that my engineering solutions are user-friendly and aesthetically pleasing.
 
-![Web UI Design](/assets/images/project_3_web.png)
+![Web UI Design]({{ '/assets/images/project_3_web.png' | relative_url }})
 
 ---
 
@@ -64,15 +64,15 @@ Memories from out first big showcase under the mentorship of **Dr. Bilal**.
 
 <div class="gallery">
   <figure>
-    <img src="/assets/images/minahil_lab_1.png" alt="Lab Setup">
+    <img src="{{ '/assets/images/minahil_lab_1.png' | relative_url }}" alt="Lab Setup">
     <figcaption>Preparing for the exhibition in the engineering lab.</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/kidney_project_1.png" alt="Project Display">
+    <img src="{{ '/assets/images/kidney_project_1.png' | relative_url }}" alt="Project Display">
     <figcaption>Displaying our Kidney Disease Prediction System.</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/minahil_intro_1.png" alt="Team Spirit">
+    <img src="{{ '/assets/images/minahil_intro_1.png' | relative_url }}" alt="Team Spirit">
     <figcaption>Collaborating with peers on campus.</figcaption>
   </figure>
 </div>
