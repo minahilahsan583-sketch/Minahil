@@ -14,9 +14,10 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
+            {% assign link_target = link.url | relative_url %}
+            <li class="masthead__menu-item{% if page.url == link_target or (link.url != '/' and page.url contains link.url) %} active{% endif %}">
               <a
-                href="{{ link.url | relative_url }}"
+                href="{{ link_target }}"
                 {% if link.description %} title="{{ link.description }}"{% endif %}
                 {% if link.target %} target="{{ link.target }}"{% endif %}
               >{{ link.title }}</a>
