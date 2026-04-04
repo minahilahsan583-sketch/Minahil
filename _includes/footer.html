@@ -1,27 +1,52 @@
-{% assign locale = include.locale | default: site.locale %}
-{% unless site.atom_feed.hide %}
-  {% assign show_atom = true %}
-{% endunless %}
-{% if site.footer.links or show_atom %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[locale].follow_label }}</strong></li>
-    {% endif %}
+<div class="page__footer-inner">
+  <div class="footer-col-about">
+    <h4 style="font-family: 'Space Grotesk'; font-size: 1.2rem; margin-bottom: 1rem;">Minahil Ahsan</h4>
+    <p style="font-size: 0.9rem; color: var(--muted-text); line-height: 1.6;">A Computer Engineering student passionate about frontend practice and building meaningful technical journals. Dedicated to continuous learning and sharing academic insights.</p>
+  </div>
+  
+  <div class="footer-col-links">
+    <h4 style="font-family: 'Poppins'; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">Quick Links</h4>
+    <ul style="list-style: none; padding: 0; font-size: 0.9rem;">
+      <li style="margin-bottom: 0.5rem;"><a href="/about/" style="color: var(--muted-text); text-decoration: none;">About Me</a></li>
+      <li style="margin-bottom: 0.5rem;"><a href="/blog/" style="color: var(--muted-text); text-decoration: none;">Blog Posts</a></li>
+      <li style="margin-bottom: 0.5rem;"><a href="/portfolio/" style="color: var(--muted-text); text-decoration: none;">Portfolio</a></li>
+      <li style="margin-bottom: 0.5rem;"><a href="/contact/" style="color: var(--muted-text); text-decoration: none;">Contact</a></li>
+    </ul>
+  </div>
 
-    {% if site.footer.links %}
-      {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer{% if link.rel %} {{ link.rel }}{% endif %}"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label | escape_once | strip }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-    {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> {{ site.data.ui-text[locale].feed_label | default: "Feed" }}</a></li>
-    {% endunless %}
-  </ul>
+  <div class="footer-col-social">
+    <h4 style="font-family: 'Poppins'; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">Stay Connected</h4>
+    <div style="display: flex; gap: 15px; font-size: 1.2rem;">
+      <a href="https://github.com/Minahil" style="color: var(--primary-color);"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/minahilahsan" style="color: var(--primary-color);"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/Minahil_Ahsan" style="color: var(--primary-color);"><i class="fab fa-twitter"></i></a>
+      <a href="mailto:minahilahsan@gmail.com" style="color: var(--primary-color);"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
 </div>
-{% endif %}
 
-<div class="page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright" style="text-align: center; border-top: 1px solid var(--border-color); padding-top: 2rem; margin-top: 3rem; color: var(--muted-text); font-size: 0.85rem;">
+  &copy; {{ site.time | date: '%Y' }} Minahil Ahsan. Built with <i class="fas fa-heart" style="color: #ef4444;"></i> for Frontend Practice.
+</div>
+
+<style>
+.page__footer-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .page__footer-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  .footer-col-social div {
+    justify-content: center;
+  }
+}
+</style>

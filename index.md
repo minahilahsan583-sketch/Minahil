@@ -1,81 +1,48 @@
----
 layout: single
-author_profile: true
+author_profile: false
 header:
-  overlay_image: /assets/images/minahil_intro_1.png
-  overlay_filter: 0.6
-  caption: "Computer Engineering Student & ML Enthusiast"
-  actions:
-    - label: "View Portfolio"
-      url: "/portfolio/"
-    - label: "Read Blog"
-      url: "/blog/"
-excerpt: "Transforming complex problems into elegant software solutions. Passionate about AI, Machine Learning, and Modern Web Technologies."
+  overlay_filter: 0.1
+  caption: "Minahil Ahsan - Tech Journal"
+excerpt: "I am a Computer Engineering student building simple and responsive systems using Modern Tech. This blog shows my practice work and weekly progress."
 ---
 
-# 🚀 Welcome to My Digital Space
-
-I'm **Minahil Ahsan**, a Computer Engineering student dedicated to mastering the art of software development and artificial intelligence. My work sits at the intersection of rigorous engineering and creative problem-solving.
+<div class="page__hero-content">
+  <p style="color: var(--primary-color); font-weight: 600; font-family: 'Poppins'; margin-bottom: 0;">Student Engineering Log</p>
+  <h1 class="page__hero-title">Minahil Ahsan - Tech Practice Journal</h1>
+  <p class="pager__hero-excerpt">I am a Computer Engineering student focused on building intelligent, responsive, and user-centric software. This space serves as a log of my technical growth, research, and semester projects.</p>
+  <div style="display: flex; gap: 15px; margin-top: 2rem;">
+    <a href="/blog/" class="btn btn--primary">Read My Articles</a>
+    <a href="/about/" class="btn btn--info">About Me</a>
+  </div>
+</div>
 
 ---
 
-## 🌟 Featured Insights
+<h2 style="font-family: 'Space Grotesk'; font-size: 2rem; margin: 3rem 0 1.5rem;">Latest Technical Insights</h2>
+<p style="color: var(--muted-text); margin-bottom: 3rem;">Recent notes from my weekly learning, university lab tasks, and AI research.</p>
 
-Explore some of my recent thoughts and technical deep-dives.
-
-<div class="grid__wrapper">
-  {% for post in site.posts limit:3 %}
+<div class="entries-list">
+  {% for post in site.posts limit:5 %}
     <div class="grid__item">
-      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+      <article class="archive__item">
         <div class="archive__item-teaser">
           <img src="{{ post.header.teaser | default: post.header.overlay_image | default: '/assets/images/minahil_coding_1.png' }}" alt="{{ post.title }}">
         </div>
-        <h2 class="archive__item-title no_toc" itemprop="headline">
-          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-        </h2>
-        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        <div class="archive__item-body">
+          <p style="font-size: 0.8rem; color: var(--primary-color); font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem; display: flex; justify-content: space-between;">
+            <span>{{ post.categories | first | replace: "-", " " }}</span>
+            <span style="color: var(--muted-text); font-weight: 400;">{{ post.date | date: "%d %b %Y" }}</span>
+          </p>
+          <h2 class="archive__item-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          <p class="archive__item-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        </div>
       </article>
     </div>
   {% endfor %}
 </div>
 
-<div style="text-align: center; margin-top: 1em;">
-  <a href="/blog/" class="btn btn--primary">View All Posts</a>
-</div>
-
----
-
-## 👩‍💻 About Me
-
-I am currently pursuing my degree in Computer Engineering, where I specialize in **Software Engineering** and **Machine Learning**. My journey is driven by a desire to build intelligent systems that serve the community and advance technological frontiers.
-
-### My Core Mission
-> "To innovate and implement technology that simplifies life, empowers individuals, and contributes to the progress of my country."
-
-<div style="text-align: center;">
-  <a href="/about/" class="btn btn--info">Read My Story</a>
-</div>
-
----
-
-## 🛠️ Technical Toolkit
-
-A glimpse into the technologies and tools I work with:
-
-| Category | Skills |
-| :--- | :--- |
-| **Languages** | C++, Python, JavaScript, SQL |
-| **AI/ML** | TensorFlow, Scikit-learn, Data Analysis |
-| **Web Dev** | Jekyll, HTML5, CSS3, Modern UI/UX |
-| **Tools** | Git, VS Code, MATLAB, Linux |
-
----
-
-## 🤝 Let's Collaborate
-
-Whether you have a question about my projects or just want to say hi, I'm always open to connecting with fellow tech enthusiasts and professionals.
-
-<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-  <a href="/contact/" class="btn btn--primary">Get in Touch</a>
-  <a href="/portfolio/" class="btn btn--inverse">Explore Portfolio</a>
+<div style="text-align: center; margin-top: 3rem;">
+  <a href="/blog/" class="btn btn--info">View All Practice Logs</a>
 </div>
