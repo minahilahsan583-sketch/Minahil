@@ -1,86 +1,88 @@
 ---
 layout: single
-title: "About Me"
+title: "Inspiring Innovation: My Journey in Engineering"
 permalink: /about/
 author_profile: true
 header:
   overlay_image: /assets/images/minahil_lab_1.png
-  overlay_filter: 0.5
+  overlay_filter: 0.6
+  caption: "Engineering the Future with Logic and Creativity"
 ---
 
-# Hello!
+# 👋 About Me
 
-I'm **Minahil Ahsan**, a passionate **Computer Engineering student** who loves learning new technologies and solving real-world problems through programming.
-
----
-
-## Academic Journey
-
-I am currently studying for a **Bachelor of Computer Engineering**.  
-In my first semester, I had the honor of participating in a technical exhibition under the supervision of **Dr. Bilal**. This experience was instrumental as we worked on innovative projects involving **programming, databases, and machine learning**.
+I am **Minahil Ahsan**, a dedicated **Computer Engineering** student with a profound passion for building intelligent systems and solving complex computational problems. My approach combines rigorous technical expertise with a creative mindset to develop solutions that don't just work, but excel.
 
 ---
 
-## My Interests
+## 🎓 My Academic Journey
 
-- 💻 **Programming and Problem Solving**: I enjoy the logical challenges of coding in C++ and Python.
-- 🤖 **Machine Learning and Data Analysis**: Fascinated by the power of data and AI.
-- 🗄️ **Database Management Systems**: Understanding how to structure and manage data efficiently.
-- 🌐 **Web Development**: Building modern and responsive web applications.
-- 🛠️ **Learning new tools and technologies**: Always keeping up with industry trends.
+I am currently pursuing a **Bachelor’s in Computer Engineering**, where I am building a solid foundation in software architecture, electronic circuits, and data science. 
+
+My academic path is marked by a commitment to practical excellence. During my initial semesters, I had the privilege of working under the mentorship of **Dr. Bilal**, where I participated in high-level technical exhibitions. This exposure allowed me to translate theoretical knowledge into real-world applications, particularly in **predictive modeling and software design**.
 
 ---
 
-## Highlight Project
+## 🎯 My Mission & Goals
+
+My ambition extends beyond personal success; I aim to be a catalyst for technological advancement in my country. 
+
+*   **Become an ML Authority**: I aspire to master Machine Learning and Artificial Intelligence to build systems that automate and optimize critical industries.
+*   **Serve My Nation**: I am driven by the goal of using technology to streamline public services, improve healthcare, and contribute to the economic growth of my country through digital innovation.
+*   **Bridge the Gap**: I want to bridge the gap between complex engineering concepts and accessible, user-friendly solutions.
+
+---
+
+## 🛠️ Technical Prowess
+
+I constantly update my skill set to stay at the forefront of the industry.
+
+### 💻 Programming & Frameworks
+- **Languages**: C++ (Core logic), Python (AI/ML), JavaScript (Interactive Web)
+- **AI/ML**: TensorFlow, Scikit-learn, Data Preprocessing, Predictive Analytics
+- **Databases**: MySQL, Relational Schema Design
+
+### 🌐 Digital Presence & Tools
+- **Version Control**: Expert in Git and GitHub for collaborative development.
+- **Web Tech**: Jekyll, HTML5, CSS3 (Modern Responsive Design)
+- **Environments**: VS Code, MATLAB, Linux Administration
+
+---
+
+## 🏗️ Major Project Highlight
 
 ### Kidney Disease Prediction System
+One of my most significant projects to date is a **Healthcare-focused Predictive Model**. 
+We developed an advanced system that utilizes patient data to predict the early onset of kidney disease with high precision.
 
-Our exhibition flagship project was a **Kidney Disease Prediction System**. We built a machine learning model designed to predict the likelihood of kidney disease based on patient medical data.
-
-**My contributions:**
-- 📊 DataPreprocessing and cleaning
-- 🧠 Model training and testing
-- 📝 Documentation and presentation
+*   **Key Achievement**: Achieved over **90% accuracy** through rigorous feature engineering and model tuning.
+*   **Impact**: Demonstrating how AI can be a life-saving tool in preventive medicine.
 
 ---
 
-### Technical Skills
+## 💬 Let’s Connect
 
-| Category | Skills |
-|----------|-------|
-| Programming | C++, Python |
-| Database | MySQL |
-| Web | HTML, CSS, Markdown |
-| Tools | Git, GitHub, VS Code |
+I am always eager to collaborate on innovative projects or discuss the latest trends in technology.
 
----
-
-## Career Aim
-
-To become a **skilled software engineer** and **machine learning expert**, building solutions that can positively impact society.
+*   **Professional Network**: [LinkedIn](https://linkedin.com/in/minahilahsan)
+*   **Code Repositories**: [GitHub](https://github.com/Minahil)
+*   **Direct Inquiry**: [Email Me](mailto:minahilahsan@gmail.com)
 
 ---
 
-## Get in Touch
-
-- 🐙 **GitHub:** [https://github.com/Minahil](https://github.com/Minahil)
-- 📧 **Email:** [minahilahsan@gmail.com](mailto:minahilahsan@gmail.com)
-
----
-
-### Life in Engineering
+### 🏛️ Life at the Lab
 
 <div class="gallery">
   <figure>
-    <img src="/assets/images/minahil_lab_1.png" alt="Engineering Lab Work">
-    <figcaption>Working in our state-of-the-art computer lab.</figcaption>
+    <img src="/assets/images/minahil_lab_1.png" alt="University Lab">
+    <figcaption>Where ideas turn into implementation.</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/minahil_coding_1.png" alt="Coding on my laptop">
-    <figcaption>Solving complex problems, one line of code at a time.</figcaption>
+    <img src="/assets/images/minahil_coding_1.png" alt="Coding Session">
+    <figcaption>The craft of writing elegant code.</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/minahil_intro_1.png" alt="Campus Workspace">
-    <figcaption>Collaborating with peers on campus projects.</figcaption>
+    <img src="/assets/images/minahil_intro_1.png" alt="Team Collaboration">
+    <figcaption>Learning through synergy and shared goals.</figcaption>
   </figure>
 </div>

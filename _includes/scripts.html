@@ -27,3 +27,29 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+  function setTheme(theme) {
+    const icon = document.getElementById('theme-icon');
+    const body = document.body;
+    if (theme === 'dark') {
+      body.classList.add('dark-mode');
+      if (icon) icon.className = 'fas fa-sun';
+    } else {
+      body.classList.remove('dark-mode');
+      if (icon) icon.className = 'fas fa-moon';
+    }
+  }
+
+  function toggleTheme() {
+    const isDark = document.body.classList.contains('dark-mode');
+    const newTheme = isDark ? 'light' : 'dark';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme);
+  });
+</script>

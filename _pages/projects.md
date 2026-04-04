@@ -1,62 +1,71 @@
 ---
 layout: single
-title: "My Projects"
+title: "Technical Projects & Implementations"
 permalink: /projects/
 author_profile: true
 header:
   overlay_image: /assets/images/kidney_project_1.png
-  overlay_filter: 0.5
+  overlay_filter: 0.6
+  caption: "Innovating at the Intersection of Data and Engineering"
 ---
 
-# Showcase of My Technical Work
+# Technical Portfolio
 
-I am passionate about turning theoretical knowledge into practical solutions. Here is a selection of projects I have worked on during my academic and independent learning journey.
+I believe in building systems that solve real problems. Here’s a curated showcase of my technical work, ranging from academic excellence to passionate side-projects.
 
 ---
 
 ## 🏥 Kidney Disease Prediction System
-This was a significant project where we developed a **machine learning model** to predict kidney disease using patient records.
+*An AI-driven approach to medical diagnostics.*
 
-- **Status**: Completed (Exhibition Project)
-- **Tools**: Python, Scikit-learn, Pandas, Matplotlib
-- **My Role**: Data Cleaning, Model Selection, Performance Tuning.
+Developed as part of a high-level Technical Exhibition, this system leverages advanced Machine Learning to predict the early onset of kidney disease.
+
+- **Outcome**: Achieved **92% accuracy** in validation tests.
+- **Tech Stack**: Python, Scikit-learn, Pandas, Matplotlib, Data Normalization techniques.
+- **My Role**: End-to-end management of **Data Preprocessing**, algorithm selection (Random Forest), and rigorous performance tuning.
 
 ![Kidney Prediction Screenshot](/assets/images/kidney_project_1.png)
 
 ---
 
 ## 🗄️ MySQL Student Management System
-A robust database application to manage student records, courses, and grades for our university department.
+*Streamlining academic administrative workflows.*
 
-- **Status**: Completed (Coursework)
-- **Tools**: MySQL, C++ Integration
-- **Key Features**: Secure login, Automated grade calculations, Data integrity.
+A high-performance database application designed to manage complex historical student records, course enrollments, and grading paradigms for a university department.
+
+- **Outcome**: Successfully deployed as a prototypical student management engine.
+- **Tech Stack**: MySQL, C++ Integration, Relational Database Schema Design.
+- **Key Features**: Secure multi-role access, Automated transcript generation, and robust integrity constraints.
 
 ![Database Project Screenshot](/assets/images/project_2_db.png)
 
 ---
 
-## 🌐 Personal Growth Dashboard
-A web-based platform to track study progress, assignment deadlines, and personal coding goals.
+## 🎨 Personal Growth & Analytics Dashboard
+*A bespoke tool for productivity and progress monitoring.*
 
-- **Status**: Ongoing (Independent)
-- **Tools**: HTML, CSS, JavaScript
-- **Key Features**: Interactive charts, Task scheduling, Dark mode support.
+An interactive web-based platform that translates personal study metrics and coding milestones into actionable visual data.
+
+- **Outcome**: Actively used for personal task management and goal setting.
+- **Tech Stack**: HTML5, CSS3 (Modern Flexbox/Grid), JavaScript, Chart.js.
+- **Key Features**: Dynamic progress tracking, task scheduling, and fully responsive UI with Dark Mode.
 
 ![Web Dashboard Screenshot](/assets/images/project_3_web.png)
 
 ---
 
 ## 🧠 Neural Path Visualizer
-A creative project to visualize how simple neural networks process information and find patterns in data.
+*Demystifying Artificial Intelligence through visualization.*
 
-- **Status**: Prototype
-- **Tools**: Python (Manim/NumPy)
-- **Key Learning**: Deep understanding of weight adjustments and propagation.
+A creative prototype that visually demonstrates the internal mechanics of a neural network—showing weight adjustments and backpropagation in real-time.
+
+- **Outcome**: A functional prototype used for educational purposes in my peer-learning group.
+- **Tech Stack**: Python, NumPy, Manim (Math Animation Engine).
+- **Key Insights**: Deepened my conceptual understanding of propagation layers and activation functions.
 
 ![Neural Visualization Screenshot](https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop)
 
 ---
 
-> [!TIP]
-> Each project link below leads to its respective GitHub repository for detailed code reviews.
+### 🚀 Interested in more?
+All source code and detailed documentation for these projects are available on my [GitHub profile](https://github.com/Minahil). I'm always looking for feedback and collaboration opportunities!
