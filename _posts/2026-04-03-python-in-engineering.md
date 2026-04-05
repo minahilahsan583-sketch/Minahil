@@ -4,8 +4,9 @@ date: 2026-04-03
 categories: [tech, tutorial]
 tags: [python, basics, data science]
 header:
-  overlay_image: https://github.com/minahilahsan583-sketch/Minahil/blob/dfe61aee2046db07e22653176d2093c7eb2e18c1/assets/images/minahil_coding_1.png
-  overlay_filter: 0.5
+ image:
+  path: /assets/img/.jpg
+  alt: Daily student routine
  
 ---
 
