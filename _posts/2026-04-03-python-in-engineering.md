@@ -6,7 +6,7 @@ tags: [python, basics, data science]
 header:
  image:
   path: /assets/images/minahil2222.jpg
-  alt: Daily student routine
+  alt: python pf
  
 ---
 
