@@ -12,7 +12,9 @@ header:
 
 Python is essential for modern engineering. Its simplicity and extensive library ecosystem (NumPy, SciPy, Matplotlib) make it indispensable for tasks ranging from data analysis to machine learning.
 
-![Python Engineering Environment](https://images.unsplash.com/photo-1527689341-cf19920367ed?q=80&w=2070&auto=format&fit=crop)
+<p align="center">
+  <img src="/assets/images/minahil2222.jpg" alt="title" width="900"/>
+</p>
 
 I recommend all beginners to start their journey with Python.
 
