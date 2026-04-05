@@ -5,7 +5,7 @@ categories: [tech, tutorial]
 tags: [python, basics, data science]
 header:
  image:
-  path: /assets/img/.jpg
+  path: /assets/images/minahil2222.jpg
   alt: Daily student routine
  
 ---
